@@ -1,5 +1,8 @@
-Guía SQL /play rumble
+Guía SQL 
 =========
+
+ type: new feature 
+ feat: integration /play rumble
 
 Crear una tabla
 ----------------
