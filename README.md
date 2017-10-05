@@ -20,7 +20,7 @@ SELECT table_name,column_name,udt_name,character_maximum_length
   FROM information_schema.columns WHERE nomnre_tabla = 'campo'
 ```
 
-Eliminar tabla 
+Eliminar tabla  :x: :fire:
 ----------------
 ```sql
  drop table nombre_tabla;
@@ -33,7 +33,7 @@ Insertar elementos
  insert into usuarios(nombre, clave) values('Osman', 'Alexander');
   ```
 
-Recuperar algunos campos de la tabla
+Recuperar algunos campos de la tabla  :mag_right:
 ---------------- 
 
 ```sql
@@ -97,6 +97,20 @@ create table nombre_tabla(
   primary key (codigo)
  );
  ```
+
+ Borrar todos los registros de una tabla :fire: :fire:
+--------------------------------
+
+```sql
+truncate table libros;
+```
+
+Tipo de dato Numerico :one: :1234:
+--------------------
+almacenar un número de hasta 10 numeros con 2 decimales 
+```sql
+dígitos con 2 decimales
+```
 
 
 
