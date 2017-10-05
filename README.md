@@ -1,4 +1,4 @@
-Guía SQL 
+Guía SQL /play rumble
 =========
 
 Crear una tabla
@@ -13,7 +13,7 @@ Crear una tabla
   );
 ```
 
-Conocer estructura de la tabla 
+Conocer estructura de la tabla  :wave:  :wave: 
 ----------------
 ```sql
 SELECT table_name,column_name,udt_name,character_maximum_length 
@@ -52,14 +52,14 @@ Operadores relacionales
   where precio>20;
 ```
 
-Borrar registros
+Borrar registros  :gun: :gun: :gun:
 ---------------- 
 ```sql
   delete from nombre_tabla
   where nombre_campo='valor';
 ```
 
-Actualizar registros
+Actualizar registros  :repeat_one:
 ---------------- 
 ```sql
   update nombre_tabla set nombre_campo ='campo'
@@ -86,7 +86,7 @@ Comentarios
  );
 ```
 
-Valor SERIAL
+Valor SERIAL  :id:
 -------------
 ```sql
 create table nombre_tabla(
